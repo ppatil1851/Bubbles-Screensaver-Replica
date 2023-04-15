@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Fun with Photos in JavaScript</title>
+</head>
+
+<body onload="initialize();">
+    <h1>Fun with Photos</h1>
+    <br />
+    <div id="court" style="border: solid black; background-color: azure; width: 100vw; height: 80vh;"
+        onclick="resumeAction(event);">
+        <div id="photos">
+            <img src="http://lambda.uta.edu/cse5335/p1.jpeg" alt="image1" id="image1" class="image-collision">
+            <img src="http://lambda.uta.edu/cse5335/p2.jpeg" alt="image2" id="image2" class="image-collision">
+            <img src="http://lambda.uta.edu/cse5335/p3.jpeg" alt="image3" id="image3" class="image-collision">
+            <img src="http://lambda.uta.edu/cse5335/p4.jpeg" alt="image4" id="image4" class="image-collision">
+            <img src="http://lambda.uta.edu/cse5335/p5.jpeg" alt="image5" id="image5" class="image-collision">
+        </div>
+    </div>
+    <br />
+    Messages: <span id="message"></span>
+    <script type="text/javascript" src="./photos.js"></script>
+</body>
+
+</html>
